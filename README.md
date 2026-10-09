@@ -6,7 +6,7 @@ Sistema de gestión de reservas hoteleras desarrollado en Java aplicando los pil
 
 ## 🎯 Enfoque y Defensa del Proyecto
 
-Aunque la lógica algorítmica de solapamiento de fechas y la validación cruzada supusieron un reto complejo, lo que domino al 100% de este sistema es su diseño arquitectónico y de empaquetado:
+El núcleo del sistema está diseñado bajo principios de Clean Code y Programación Orientada a Objetos, resolviendo de forma robusta la gestión de reservas y solapamiento de fechas mediante una arquitectura desacoplada:
 * **Separación de responsabilidades:** La lógica financiera y de cobros está aislada en el paquete de economía, mientras que la operativa central recae sobre la gestión.
 * **Encapsulamiento estricto:** Uso de clases abstractas, herencia y polimorfismo aplicado en tipos de habitaciones (`HabitacionDoble`, `Suite`).
 * **Utilidades limpias:** Centralización de validaciones de fechas mediante clases de utilidad estáticas (`UtilFechas`).
