@@ -26,9 +26,7 @@ src/
 │   ├── utils/            # Funciones auxiliares de control de fechas (UtilFechas)
 │   └── App.java          # Clase principal de ejecución
 
-💻 Tecnologías Utilizadas
-Java (JDK 17+)
-
-IntelliJ IDEA
-
-Git & GitHub (Control de versiones)
+## 💻 Tecnologías Utilizadas
+* **Lenguaje:** Java (JDK 17+)
+* **Entorno:** IntelliJ IDEA
+* **Control de versiones:** Git & GitHub
